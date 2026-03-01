@@ -1,0 +1,31 @@
+services:
+  openclaw:
+    image: openclaw/openclaw:latest
+    container_name: agent_os_gateway
+    ports:
+      - "3000:3000"            # OpenClaw dashboard
+    volumes:
+      - ../workspace:/root/.openclaw/workspace
+      - ../brain:/root/.openclaw/brain
+      - ../skills:/root/.openclaw/skills
+      - openclaw_data:/root/.openclaw
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  # Optional: DB for future structured task storage / Kanban dashboard
+  postgres:
+    image: postgres:16-alpine
+    container_name: agent_os_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: agent_os
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  openclaw_data:
+  postgres_data:
