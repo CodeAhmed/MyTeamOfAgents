@@ -24,6 +24,7 @@ MyTeamOfAgents is an experimental **AI Agent OS** designed to:
 - Orchestrate automations across your **Mac** and **Raspberry Pi 4**.
 - Serve as a **learning lab** for AI engineering, infra-as-code, and multi-agent workflows.
 
+> Designed by a .NET/Azure dev moving into AI engineering, with a strong focus on reproducible infra, clear docs, and gradual automation.
 ---
 ## Core Ideas
 
