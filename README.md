@@ -1,17 +1,30 @@
 # MyTeamOfAgents
 
-A personal **Agent Operating System** built on top of the official **OpenClaw** engine.
+> A personal **Agent Operating System** built on top of the official **OpenClaw** engine.
 
-This repo is your experimental playground for:
+<p align="center">
+  <!-- Replace with your own banner or logo later -->
+  <!-- <img src="https://raw.githubusercontent.com/CodeAhmed/MyTeamOfAgents/main/docs/assets/banner.png" width="640" /> -->
+</p>
 
-- Running a **team of AI agents** (Olivia, Atlas, Forge, Sentinel, Scout, Ranger).
-- Orchestrating tools and automations across your Mac and Raspberry Pi 4.
-- Practicing real-world **AI engineering**, not just toy scripts.
-
-> Designed by a .NET/Azure dev moving into AI engineering, with a strong focus on reproducible infra, clear docs, and gradual automation.
+<p align="center">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+  <a href="https://github.com/CodeAhmed/MyTeamOfAgents/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/CodeAhmed/MyTeamOfAgents?style=social"></a>
+  <a href="https://github.com/CodeAhmed/MyTeamOfAgents/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/CodeAhmed/MyTeamOfAgents"></a>
+  <a href="https://github.com/CodeAhmed/MyTeamOfAgents/actions"><img alt="CI status" src="https://img.shields.io/badge/CI-coming%20soon-lightgrey.svg"></a>
+</p>
 
 ---
 
+## ✨ What is this?
+
+MyTeamOfAgents is an experimental **AI Agent OS** designed to:
+
+- Run a **team of specialized agents**: Olivia (Chief of Staff), Atlas (Strategist), Forge (Dev/DevOps), Sentinel (Guardian), Scout (Curator), Ranger (Pi4 MediaOps).
+- Orchestrate automations across your **Mac** and **Raspberry Pi 4**.
+- Serve as a **learning lab** for AI engineering, infra-as-code, and multi-agent workflows.
+
+---
 ## Core Ideas
 
 - **OpenClaw as the brain**: Use the official OpenClaw engine for orchestration and routing. Don’t reinvent the core agent runtime.
